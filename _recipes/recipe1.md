@@ -7,6 +7,8 @@ published: true
 ---
 A delicious summer treat. Cook indoors or out on the barbecue. Serve up with Retsina or some cold Greek beer.
 
+![Potato balls and a plate with salad](../uploads/potatoballsfromlesvos.jpg "Potato balls and a plate with salad")
+
 ## Ingredients
 
 * 1 kg potatoes, boiled and pureed
