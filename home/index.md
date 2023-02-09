@@ -1,5 +1,5 @@
 ---
-title: 5 Greek Recipes from the Islands
+title: Greek Island Recipes
 coverimage: ../uploads/grekislandrecipes.jpg
 permalink: /
 layout: recipeshome
