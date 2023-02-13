@@ -18,6 +18,8 @@ Orzo Pasta looks a little like long grain rice, and is most versatile. I've seen
 * Half a cup of mixed oregano, and parsley, chopped.
 * One block of feta cheese, whole or crumbled
 
+![Feta Cheese](../uploads/feta.jpg "Feta Cheese")
+
 ## M﻿ethod
 
 Make the dressing with the following ingredients; half a cup of red wine vinegar, half a teaspoon of sugar,
@@ -27,7 +29,10 @@ Place orzo pasta into a pan of boiling water and cook as directed by instruction
 Leave to Cool, then place into serving dish.
 
 Mix together the chopped tomatoes, cucumber, onion, and pepper and add to cooled pasta.
-Place the feta on top of pasta salad mixture and dress with chopped herbs.
-Drizzle over the dressing. this can be served immediately or put in the refrigerator until needed. This Greek pasta salad is traditionally served with Greek olives. 
 
-S﻿erves 4
+Place the feta on top of pasta salad mixture and dress with chopped herbs.
+
+Drizzle over the dressing. this can be served immediately or put in the refrigerator until needed. **This Greek pasta salad is traditionally served with Greek olives.** 
+
+* S﻿erves 4
+* Preparation time: 1 hour
