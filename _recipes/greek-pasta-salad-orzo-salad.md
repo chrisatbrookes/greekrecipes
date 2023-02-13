@@ -34,5 +34,7 @@ Place the feta on top of pasta salad mixture and dress with chopped herbs.
 
 Drizzle over the dressing. this can be served immediately or put in the refrigerator until needed. **This Greek pasta salad is traditionally served with Greek olives.** 
 
+![Dark Olives in a bowl](../uploads/olives.jpg.webp "Olives in a bowl")
+
 * S﻿erves 4
 * Preparation time: 1 hour
