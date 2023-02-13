@@ -1,5 +1,5 @@
 ---
-title: Cheese Pie (Tiropita) With Feta And Bechamel
+title: Cheese Pie (Tiropita) With Feta And Béchamel
 date: 2023-02-13T12:08:27.741Z
 order: 4
 layout: recipe
