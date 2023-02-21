@@ -15,12 +15,23 @@
 /* the rest is up to you */
 
 body {
-
-  background-color: cyan;
+  background-color: rgb(145, 145, 145);
+  padding-top: 6em;
 }
 
+.recipeshome {
+  background-color: white;
+  padding-top: 1em;
+  margin-top: 0;
+}
+
+.recipeshome header {
+  display:none;
+}
+
+
 h1 {
-  color: rgb(69, 200, 187);
+  color: rgb(0, 56, 50);
   margin-bottom: 12px;
   text-align: center;
 }
@@ -34,26 +45,91 @@ h1,h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+.listing h1 {
+  text-align: left;
+}
+
+.recipe-teaser h1 a {
+  text-decoration: none;
+  color: rgb(18, 101, 146);
+  /* padding: 10px; */
+}
+
+.recipe-teaser a:hover {
+  color: chocolate;
+}
+
 p {
 color:rgb(59, 57, 57);
 margin-bottom:1em;
 }
 
+.recipeshome p {
+  font-size: 1.2em;
+}
+
+.recipeshome main p:first-of-type {
+  color:rgb(255, 255, 255);
+  font-size: 1.4em;
+  background-color: rgb(75, 124, 173);
+  padding: 4px;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  position:fixed;
+  top: 0;
+  padding: 1em 0;
+  width: 100%;
+  z-index: 1;
+  height:5rem;
+}
+
+header h1 a {
+  text-decoration: none;
+  color:white;
+}
+
 main {
-width: 60%;
+width: 70%;
 max-width:850px;
 /* border:1px solid purple; */
-padding: 0 12px;
+padding: 12px 50px;
 margin:0 auto;
 background-color: white;
+border: 1px solid silver;
+overflow: auto;
 }
 
-img {
-width:60%;
-float:right;
+.home {
+  width: 60%;
+  /* float:right; */
+  margin: 2em auto;
+}
+
+.home img {
+width:100%;
 }
 
 
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  height: 4em;
+  background-color: black;
+  font-size: .8em;
+  
+}
+
+footer p {
+  text-align: center;
+  color:white;
+  line-height: 3;
+}
 
 ul {
   margin-left: 12px;
@@ -67,8 +143,115 @@ margin-bottom: 12px;
 list-style-position: inside;
 }
 
+img {
+  width: 100%;
+  /* float:right; */
+  /* margin-left: 5px; */
+}
+
 .caption {
   font-size: .8em;
-  float:right;
-  width:60%;
+  /* float:right; */
+  width:50%;
+  text-align: center;
 }
+
+p:has(img) {
+  float:right;
+  border:1px solid rgb(134, 134, 134);
+  width: 50%;
+  padding: 10px;
+  margin-left: 1em;
+}
+
+/* p:nth-child(n+6):has(img) {
+  float:right;
+  border:1px solid rgb(135, 135, 135);
+  width: 50%;
+  padding: 10px;
+  margin-left: 1em;
+  } */
+
+ 
+
+/* the menu */
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgba(43, 13, 64, 0.84);
+  display: block;
+  /* border: 1px solid red; */
+  width: 15%;
+  padding: 10px;
+  margin: 0;
+  min-width: 120px;
+  position:fixed;
+  top:6em;
+  left:0;
+  z-index: 12;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+font-size: .6rem;
+}
+
+.recipehere {
+  color:orange;
+  }
+
+.recipe-teaser {
+  border:1px solid rgb(161, 161, 161);
+  padding: 1em;
+  flex-basis: 300px;
+  flex-grow: 1;
+  margin:1em;
+}
+
+.list {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+  /* now comes the media queries */
+
+
+  @media screen and (max-width: 700px) {
+
+    nav {
+    margin:0;
+    position: static;
+    width:100%;
+    }
+    
+    nav ul {
+    font-size:1rem;
+    }
+    
+      main {
+      width: 100%;
+      }
+    
+      body {
+      background-color: white;
+      padding-top: 5em;
+    }
+    
+    
+    p:has(img) {
+      float:none;
+      width:100%;
+      padding: 10px;
+margin-left: 0;
+    }
+
+  }
