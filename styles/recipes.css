@@ -96,7 +96,7 @@ main {
 width: 70%;
 max-width:850px;
 /* border:1px solid purple; */
-padding: 12px 20px;
+padding: .5em 1.5em;
 margin:0 auto;
 background-color: white;
 border: 1px solid silver;
@@ -207,18 +207,24 @@ font-size: .6rem;
   color:orange;
   }
 
+/* on the recipe listing page the recipes are in a div with a class of list */
+/* we can make this a flex box */
+
+  .list {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+/* each recipe is in a section with a class of recipe-teaser */
+/* these will become flex items */
+
 .recipe-teaser {
   border:1px solid rgb(161, 161, 161);
   padding: 1em;
   flex-basis: 300px;
   flex-grow: 1;
   margin:1em;
-}
-
-.list {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 
@@ -239,19 +245,29 @@ font-size: .6rem;
     
       main {
       width: 100%;
+      padding: 1em;
+      border: none;
       }
     
       body {
       background-color: white;
       padding-top: 5em;
     }
-    
+
+    body.recipeshome {
+      padding-top:0;
+    }
+
+    .home {
+      width: 80%;
+      margin: .5em auto;
+    }
     
     p:has(img) {
       float:none;
       width:100%;
       padding: 10px;
-margin-left: 0;
+      margin-left: 0;
     }
 
   }
